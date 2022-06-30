@@ -23,31 +23,26 @@ from Yukki.YukkiUtilities.database.chats import get_served_chats, is_served_chat
 def start_pannel():  
     buttons = [
             [
-                InlineKeyboardButton(text="📚 Commands", url="https://telegra.ph/Veez-Mega-Guide-01-10")
+                InlineKeyboardButton(text="⚙️ Commands", url="https://telegra.ph/Veez-Mega-Guide-01-10")
             ],
             [ 
-                InlineKeyboardButton(text="📣 Channel", url="https://t.me/levinachannel"),
-                InlineKeyboardButton(text="💭 Group", url="https://t.me/VeezSupportGroup")
+                InlineKeyboardButton(text="📨 Updates", url="https://t.me/levinachannel"),
+                InlineKeyboardButton(text="📨 Support", url="https://t.me/VeezSupportGroup")
             ],
     ]
-    return "✨ This is veez mega, a bot that can play music trough the Telegram Group video chat feature.", buttons
+    return "A bot that can play music trough the Telegram Group video chat feature !!", buttons
 
 
 pstart_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url="https://t.me/VeezMegaBot?startgroup=true")
+                        "✚ Click here to Add Me", url="https://t.me/VeezMegaBot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph/Veez-Mega-Guide-01-10"),
+                        "📨 Support", url="https://telegra.ph/Veez-Mega-Guide-01-10"),
                     InlineKeyboardButton(
-                        "❓ Setup Guide", url="https://telegra.ph/Veez-Mega-Guid-11-19")
-                ],[
-                    InlineKeyboardButton(
-                        "👥 Official Group", url="https://t.me/VeezSupportGroup"), 
-                    InlineKeyboardButton(
-                        "📎 Official Channel", url="https://t.me/levinachannel")
+                        "📨 Updates", url="https://telegra.ph/Veez-Mega-Guid-11-19")
                 ],
             ]
         )
