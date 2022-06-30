@@ -23,11 +23,11 @@ from Yukki.YukkiUtilities.database.chats import get_served_chats, is_served_chat
 def start_pannel():  
     buttons = [
             [
-                InlineKeyboardButton(text="⚙️ Commands", url="https://telegra.ph/Veez-Mega-Guide-01-10")
+                InlineKeyboardButton(text="⚙ Source Code", url="https://github.com/UnknownMortal/M8N-Music-Bot")
             ],
             [ 
-                InlineKeyboardButton(text="📨 Updates", url="https://t.me/levinachannel"),
-                InlineKeyboardButton(text="📨 Support", url="https://t.me/VeezSupportGroup")
+                InlineKeyboardButton(text="📨 Updates", url="https://t.me/{UPDATES}"),
+                InlineKeyboardButton(text="📨 Support", url="https://t.me/{SUPPORT}")
             ],
     ]
     return "A bot that can play music trough the Telegram Group video chat feature !!", buttons
@@ -37,12 +37,12 @@ pstart_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Add Me", url="https://t.me/VeezMegaBot?startgroup=true")
+                        "✚ Click here to Add Me", url="https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "📨 Support", url="https://telegra.ph/Veez-Mega-Guide-01-10"),
+                        "📨 Support", url="https://t.me/{SUPPORT}"),
                     InlineKeyboardButton(
-                        "📨 Updates", url="https://telegra.ph/Veez-Mega-Guid-11-19")
+                        "📨 Updates", url="https://t.me/{UPDATES}")
                 ],
             ]
         )
