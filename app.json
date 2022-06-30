@@ -1,6 +1,5 @@
 {
-    "name": "Yukki-Music Old",
-    "logo": "https://telegra.ph/file/e17ae80eefd44ab387aaf.jpg",
+    "name": "OxA Music Bot",
     "description": "Telegram Bot for streaming music trough the Telegram Group video chat feature.",
     "keywords": ["music", "py-tgcalls", "pyrogram", "telegram"],
     "repository": "https://github.com/levina-lab/YukkiMusic-Old",
