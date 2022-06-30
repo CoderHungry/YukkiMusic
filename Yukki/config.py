@@ -16,3 +16,7 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "54000"))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1757169682").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1757169682").split()))
+
+SUPPORT = getenv("SUPPORT")
+UPDATES = getenv("UPDATES")
+BOT_USERNAME = getenv("BOT_USERNAME")
