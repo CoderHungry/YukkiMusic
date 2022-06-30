@@ -21,8 +21,8 @@ Client(
     plugins={'root': 'Yukki.Plugins'},
 ).start()
 
-print(f"[ INFO ] BOT STARTED AS {BOT_NAME} !")
-print(f"[ INFO ] USERBOT STARTED AS {ASSNAME} !")
+print(f"[ INFO ] : BOT STARTED !!")
+print(f"[ INFO ] : USERBOT STARTED !!")
 
 async def main():
     restart_data = await clean_restart_stage()
