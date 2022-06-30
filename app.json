@@ -2,7 +2,7 @@
     "name": "OxA Music Bot",
     "description": "Telegram Bot for streaming music trough the Telegram Group video chat feature.",
     "keywords": ["music", "py-tgcalls", "pyrogram", "telegram"],
-    "repository": "https://github.com/levina-lab/YukkiMusic-Old",
+    "repository": "https://github.com/CoderHungry/YukkiMusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
