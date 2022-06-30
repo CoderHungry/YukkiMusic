@@ -18,6 +18,18 @@
             "description": "fill with the telegram id of account you used for the assistant/userbot",
             "required": true
         },
+        "SUPPORT": {
+            "description": "fill with support group chat without @",
+            "required": true
+        },
+        "UPDATES": {
+            "description": "fill with updates channel username without @",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "fill with the bot username without @",
+            "required": true
+        },
         "LOG_GROUP_ID": {
             "description": "create a private group and get the group id and fill the group id here, Then add the assistant and bot as admin to the group",
             "required": true
