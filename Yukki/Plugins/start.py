@@ -19,6 +19,9 @@ from ..YukkiUtilities.helpers.inline import start_keyboard, personal_markup
 from Yukki import app, BOT_USERNAME, BOT_ID, ASSID, ASSNAME, ASSUSERNAME, OWNER, SUDOERS
 from Yukki.YukkiUtilities.database.chats import get_served_chats, is_served_chat, add_served_chat
 
+from Yukki.config import SUPPORT, UPDATES, BOT_USERNAME
+
+# --------------------------------------------------------------------------------------------------- #
 
 def start_pannel():  
     buttons = [
